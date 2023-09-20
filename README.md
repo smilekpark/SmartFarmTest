@@ -1,6 +1,6 @@
 # SmartFarmTest
 
-```
+``` mermaid
 classDiagram
     class Arduino {
         +Arduino()
