@@ -1,6 +1,8 @@
 # SmartFarmTest
 
-``` mermaid
+### 클래스 다이어그램 
+
+```mermaid
 classDiagram
     class Arduino {
         +Arduino()
@@ -33,6 +35,4 @@ classDiagram
     class Actuator {
         +control()
     }
-
-
-`
+```
