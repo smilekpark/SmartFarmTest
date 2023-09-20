@@ -36,9 +36,9 @@ classDiagram
         +control()
     }
 ```
-### 시퀀스 다이어그램 
+### 클래스 다이어그램 
 
-'''mermaid
+```mermaid
 sequenceDiagram
     participant User as User
     participant BlynkApp as Blynk App
