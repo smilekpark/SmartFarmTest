@@ -36,3 +36,20 @@ classDiagram
         +control()
     }
 ```
+### 시퀀스 다이어그램 
+
+'''mermaid
+sequenceDiagram
+    participant User as User
+    participant BlynkApp as Blynk App
+    participant BlynkServer as Blynk Server
+    participant Arduino as Arduino
+
+    User ->> BlynkApp: Request sensor data
+    BlynkApp ->> BlynkServer: Forward data request
+    BlynkServer ->> Arduino: Request sensor data
+    Arduino -->> BlynkServer: Send sensor data
+    BlynkServer -->> BlynkApp: Forward sensor data
+    BlynkApp -->> User: Display sensor data
+
+```
